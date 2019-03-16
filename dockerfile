@@ -1,4 +1,4 @@
-FROM docker.io/node:6-alpine
+FROM docker.io/node:10.15-alpine
 MAINTAINER twy
 
 COPY /. /var/seo_server
