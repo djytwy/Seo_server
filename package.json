@@ -1,0 +1,20 @@
+{
+  "name": "seo_server",
+  "version": "1.0.0",
+  "description": "a server to use for SEO",
+  "main": "seo_server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "ioredis": "^4.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node seo_server.js"
+  },
+  "keywords": [
+    "seo"
+  ],
+  "author": "twy",
+  "license": "ISC"
+}
